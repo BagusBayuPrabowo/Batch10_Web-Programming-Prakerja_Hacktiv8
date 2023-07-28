@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar CSS</title>
+        <style>
+            /* pemanggilan tag heading */
+            h1{
+                background-color: aqua !important;
+                padding: 10px;
+                margin: 10px;
+                color: white;
+            }
+            /* pemanggilan class menggunakan dot (.) */
+            .warnajudul{
+                background-color: blue !important;
+            }
+            /* pemanggilan id menggunakan hash (#) */
+            #judulheading{
+                background-color: yellow !important;
+                color: blue;
+                font-size: 25px;
+            }
+        </style>
+        <!-- /* external css */ -->
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>
+        <h1 
+            id="judulheading" 
+            class="warnajudul" 
+            style="background-color: red;"
+        >
+            Belajar CSS</h1>
+        
+        <p>Hello CSS</p>
+    </body>
+</html>

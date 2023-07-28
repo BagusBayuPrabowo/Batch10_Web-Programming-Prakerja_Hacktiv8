@@ -1,0 +1,5 @@
+ctrl + / >>> komentar
+alt + z >>> wrap
+shift + alt + bawah >>> duplikasi
+ctrl + d >>> blok
+ctrl +shift + l >>> 
