@@ -53,3 +53,14 @@ form input[type="submit"] {
 }
 
 /* tambahkan CSS untuk section profile disini */
+ #profile{
+  background-color: white;
+ }
+
+img{
+  border-radius: 50%;
+}
+
+.action:hover{
+  color: red;
+}
