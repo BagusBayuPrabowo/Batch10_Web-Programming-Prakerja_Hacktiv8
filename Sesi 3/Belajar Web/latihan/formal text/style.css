@@ -1,19 +1,15 @@
-link{
-    font-size: 20pt;
+.tulisan_kiri{
+    text-align: left;
 }
 
-link:hover{
-    color: red;
+.tulisan_kanan{
+    text-align: right;
 }
 
-link:link{
-    color: blue;
+.tulisan_tengah{
+    text-align: center;
 }
 
-link:active{
-    color: green;
-}
-
-link:visited{
-    color: yellow;
+.tulisan_justify{
+    text-align: justify;
 }
