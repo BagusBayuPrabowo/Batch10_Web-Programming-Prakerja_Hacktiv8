@@ -1,0 +1,43 @@
+input 1 (first)
+input 2 (second)
+hasil = input 1 + input 2
+output hasil
+
+contoh :
+
+if (nilai > 60) ? lulus : tidak lulus
+
+looping / perulangan
+
+nilai 1
+kita hitung dari 1 s.d 10
+
+for (nilai = 1; nilai <10; nilai++){
+     console.log(nilai)
+}
+
+1. tulis judul alogaritma
+2. tulis input (untuk menghitung luas dan keliling lingkaran)
+3. tulis (phi=3.14) (phi adalah 3.14) hasil kali phi dengan jari-jari kuadrat
+   > langkah 1: masukkan phi
+   > langkah 2: masukkan jari-jari
+   > langkah 3: hitung luas lingkaran
+   > langkah 4: tampilkan luas lingkaran
+4. tulis intruksi (untuk menampilkan hasil kalkulasi luas an keliling lingkaran)
+
+## Alogaritma
+contoh :
+
+1. Judul Algoritma : Menghitung luas dan keliling lingkaran
+2.
+3.
+4.
+
+jika ingin di improve :
+boleh dikoding/ngoding > untuk melihat hasil dari menghitung luas dan keliling lingkaran
+
+Kode Peserta :
+Nama Lengkap :
+Tugas Sesi 04 : Algoritma dan Pseudocode
+
+duras tugas mandiri : 15 menit

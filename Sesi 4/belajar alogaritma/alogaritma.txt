@@ -1,0 +1,33 @@
+1. Judul Alogaritma : Menghitung Luas dan Keliling Lingkaran
+
+2. Menghitung Luas dan Keliling Lingkaran dapat dilakukan menggunakan rumus berikut ini :
+    - Luas Lingkarang
+        A = phi * r * r
+    - Keliling Lingkaran
+        K = 2 * phi * r     atau    K = phi * d
+
+    dengan : 
+        > A = Luas Lingkaran
+        > K = Keliling Lingkaran
+        > phi = 3.14
+        > r = Jari-jari Lingkaran
+        > d = Diameter Lingkaran
+
+3. Langkah-langkah Menghitung (Kalkulasi) Luas dan Keliling Lingkaran
+    - Memasukkan nilai phi dan Jari-jari Lingkaran (r), untuk Keliling Lingkaran dapat juga menggunakan nilai Diameter Lingkaran (d) jika diketehui diameter lingkaran
+    - Menghitung Luas Lingkaran dengan rumus :
+        A = phi * r * r
+    - Menghitung Keliling Lingkaran dengan rumus :
+        K = 2 * phi * r     atau    K = phi * d
+    - Menampilkan nilai Luas dan Keliling Lingkaran
+
+4. Intruksi dalam Kalkulasi
+    - Jika diketehui nilai Jari-jari Lingkaran (r) = 7 cm dan phi = 3.14
+    - Hitung Luas Lingkaran dengan rumus berikut :
+        A = phi * r * r
+          = 3.14 * 7 * 7
+          = 153.86 cm2
+    - Hitung Keliling Lingkaran dengan rumus berikut :
+        K = 2 * phi * r
+          = 2 * 3.14 * 7
+          = 43.96 cm 

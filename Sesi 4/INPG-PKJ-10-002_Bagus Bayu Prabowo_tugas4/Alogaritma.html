@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar Alogaritma</title>
+    </head>
+    <body>
+        <h1>Luas dan Keliling Lingkaran</h1>
+        <script>
+            // Menghitung Volume dan Luas Kulit Tabung dapat dilakukan menggunakan rumus berikut ini :
+            // - Volume Tabung
+            //     V = phi * r * r * t
+            // - Luas Kulit Tabung
+            //     A = (2 * phi * r * t) + (2 * phi * r * r)
+
+            // dengan : 
+            //     > V = Volume Tabung
+            //     > A = Luas Kulit Tabung
+            //     > phi = 3.14
+            //     > r = Jari-jari Alas Tabung
+            //     > t = Tinggi Tabung
+
+            var pi = 3.14;
+            var r = 7;
+            var t = 20;
+
+            // menghitung volume tabung
+            var V = pi * r * r * t;
+            console.log(V);
+            // hasil perhitungan volume tabung adalah 3,077.2 cm3
+
+            // menghitung luas kulit tabung
+            var A = (pi * 2 * r * t) + (2 * pi * r *r);
+            console.log(A);
+            // hasil perhitungan luas kulit tabung adalah 1,186.92 cm2
+        </script>
+    </body>
+</html>

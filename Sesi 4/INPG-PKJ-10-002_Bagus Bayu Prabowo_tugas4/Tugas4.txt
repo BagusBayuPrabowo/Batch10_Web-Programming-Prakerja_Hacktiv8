@@ -1,0 +1,33 @@
+1. Judul Alogaritma : Menghitung Volume dan Luas Kulit Tabung
+
+2. Menghitung Volume dan Luas Kulit Tabung dapat dilakukan menggunakan rumus berikut ini :
+    - Volume Tabung
+        V = phi * r * r * t
+    - Luas Kulit Tabung
+        A = (2 * phi * r * t) + (2 * phi * r * r)
+
+    dengan : 
+        > V = Volume Tabung
+        > A = Luas Kulit Tabung
+        > phi = 3.14
+        > r = Jari-jari Alas Tabung
+        > t = Tinggi Tabung
+
+3. Langkah-langkah Menghitung (Kalkulasi) Volume dan Luas Kulit Tabung
+    - Memasukkan nilai phi dan Jari-jari Alas Tabung (r)
+    - Menghitung Volume Tabung dengan rumus :
+        V = phi * r * r * t
+    - Menghitung Luas Kulit Tabung dengan rumus :
+        A = (2 * phi * r * t) + (2 * phi * r * r)
+    - Menampilkan nilai Volume dan Luas Kulit Tabung
+
+4. Intruksi dalam Kalkulasi
+    - Jika diketehui nilai Jari-jari Alas Tabung (r) = 7 cm, phi = 3.14, dan Tinggi Tabung (t) = 20 cm
+    - Hitung Volume Tabung dengan rumus berikut :
+        V = phi * r * r * t
+          = 3.14 * 7 * 7 * 20
+          = 3,077.2 cm3
+    - Hitung Luas Kulit Tabung dengan rumus berikut :
+        A = (2 * phi * r * t) + (2 * phi * r * r)
+          = (2 * 3.14 * 7 * 20) +(2 * 3.14 * 7 * 7)
+          = 1,186.92 cm2
