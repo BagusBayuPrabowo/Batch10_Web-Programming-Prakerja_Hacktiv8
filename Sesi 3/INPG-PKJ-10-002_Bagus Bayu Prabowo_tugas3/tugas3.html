@@ -1,115 +1,102 @@
-<html>
-    <head>
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="tugas3.css">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Sesi 03</title>
+    <link type="text/css" rel="stylesheet" href="tugas3.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">product</a></li>
+        <li><a href="#">gallery</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">my inventory</a></li>
+      </ul>
+    </nav>
 
-    <body>
-        <nav>
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">product</a></li>
-                <li><a href="#">gallery</a></li>
-                <li><a href="#">blog</a></li>
-                <li><a href="#">my inventory</a></li>
-            </ul>
-        </nav>
+    <section>
+      <div id="profile">
+        <div class="profile-photo">
+          <img src="hacktiv8.png" alt="foto profil" />
+        </div>
+        <div class="profile-text">
+          <h1><b>Bagus Bayu Prabowo</b></h1>
+          <h2>Front End Designer</h2>
+          <div class="action">
+            <button id="kontak"><a href="https://www.instagram.com/bagusbayuprabowo/">Kontak</a></button>
+            <button id="resume"><a href="Resume.pdf">Resume</a></button>
+          </div>
+        </div>
+        <div id="detail">
+          <table>
+            <tr>
+              <td>Availability</td>
+              <td>Full Time</td>
+            </tr>
+            <tr>
+              <td>Usia</td>
+              <td>17</td>
+            </tr>
+            <tr>
+              <td>Lokasi</td>
+              <td>Jakarta, Indonesia</td>
+            </tr>
+            <tr>
+              <td>Pengalaman</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td>developer@hacktiv8.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
 
-        <section>
-            <div id="profile">
-                <table>
-                <thead>
-                    <tr>
-                        <td>
-                            <div class="profile-photo">
-                                <img src="hacktiv8.png" alt="foto profil">
-                            </div>
-                        </td>
-                        <td>
-                            <div class="profile-text">
-                                <h1>Bagus Bayu Prabowo</h1>
-                                <h2>Front End Designer</h2>
-                            </div>    
-                            <div class="action">
-                                <button id="kontak"><a href="https://www.instagram.com/bagusbayuprabowo/">Kontak</a></button>
-                                <button id="resume"><a href="Resume.pdf">Resume</a></button>
-                            </div>
-                        </td>
-                        <td>
-                            <div id="detail">
-                                <table>
-                                    <tr>
-                                        <td><b>Availability</b></td>
-                                        <td>Full Time</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Usia</b></td>
-                                        <td>26</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Lokasi</b></t>
-                                        <td>Jawa Tengah, Indonesia</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Pengalaman</b></td>
-                                        <td>2</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Email</b></td>
-                                        <td>bayu.bprab@gmail.com</td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </td>
-                    </tr>
-                </thead>
-            </table>   
-            </div>
+    <section>
+      <form action="return false;">
+        <div>
+          <label for="nama">Nama</label>
+          <br />
+          <input type="text" placeholder="please input nama" />
+        </div>
+        <div>
+          <label for="role">Role</label>
+          <br />
+          <input type="text" placeholder="please input role" />
+        </div>
+        <div>
+          <label for="availability">Availability</label>
+          <br />
+          <input type="text" placeholder="please input availability" />
+        </div>
+        <div>
+          <label for="age">Age</label>
+          <br />
+          <input type="number" placeholder="please input age" />
+        </div>
+        <div>
+          <label for="lokasi">Lokasi</label>
+          <br />
+          <input type="text" placeholder="please input lokasi" />
+        </div>
+        <div>
+          <label for="experience">Year Experience</label>
+          <br />
+          <input type="number" placeholder="please input year experience" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <br />
+          <input type="email" placeholder="please input email" />
+        </div>
 
-            
-        </section>
-
-        <section>
-            <form action="return false;">
-                <div>
-                    <label for="nama">Nama</label>
-                    <br>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="role">Role</label>
-                    <br>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="availability">Availability</label>
-                    <br>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="age">Age</label>
-                    <br>
-                    <input type="number">
-                </div>
-                <div>
-                    <label for="lokasi">Lokasi</label>
-                    <br>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="experience">Year Experience</label>
-                    <br>
-                    <input type="number">
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <br>
-                    <input type="email">
-                </div>
-
-                <input type="submit" value="SUBMIT">
-            </form>
-        </section>
-
-    </body>
+        <input type="submit" value="SUBMIT" />
+      </form>
+    </section>
+  </body>
 </html>

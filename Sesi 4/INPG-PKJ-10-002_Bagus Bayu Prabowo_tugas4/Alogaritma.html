@@ -6,32 +6,31 @@
     <body>
         <h1>Luas dan Keliling Lingkaran</h1>
         <script>
-            // Menghitung Volume dan Luas Kulit Tabung dapat dilakukan menggunakan rumus berikut ini :
-            // - Volume Tabung
-            //     V = phi * r * r * t
-            // - Luas Kulit Tabung
-            //     A = (2 * phi * r * t) + (2 * phi * r * r)
+            // Menghitung Luas dan Keliling Lingkarang dapat dilakukan menggunakan rumus berikut ini :
+            // - Luas Lingkarang
+            //     A = phi * r * r
+            // - Keliling Lingkaran
+            //     K = 2 * phi * r     atau    K = phi * d
 
             // dengan : 
-            //     > V = Volume Tabung
-            //     > A = Luas Kulit Tabung
+            //     > A = Luas Lingkaran
+            //     > K = Keliling Lingkaran
             //     > phi = 3.14
-            //     > r = Jari-jari Alas Tabung
-            //     > t = Tinggi Tabung
+            //     > r = Jari-jari Lingkaran
+            //     > d = Diameter Lingkaran
 
             var pi = 3.14;
             var r = 7;
-            var t = 20;
 
-            // menghitung volume tabung
-            var V = pi * r * r * t;
-            console.log(V);
-            // hasil perhitungan volume tabung adalah 3,077.2 cm3
-
-            // menghitung luas kulit tabung
-            var A = (pi * 2 * r * t) + (2 * pi * r *r);
+            // menghitung luas lingkaran
+            var A = pi * r * r;
             console.log(A);
-            // hasil perhitungan luas kulit tabung adalah 1,186.92 cm2
+            // hasil perhitungan luas lingkaran adalah 153.86 cm2
+
+            // menghitung keliling lingkaran
+            var K = pi * 2 * r;
+            console.log(K);
+            // hasil perhitungan keliling lingkaran adalah 43.96 cm
         </script>
     </body>
 </html>
